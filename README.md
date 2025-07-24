@@ -1,6 +1,8 @@
 # Voice Productivity Companion
 
-A beautifully simple and immersive voice-first productivity companion that sits as a translucent bar at the bottom of your screen. Control your personalized soundscape entirely through voice commands while enjoying continuous generative background music designed for focus, study, and relaxation.
+> **🚀 Built in Just Hours with AI!** VoiceVibe was rapidly prototyped and developed using AI code generation tools, showcasing the power of modern development workflows. The seamless voice recognition is powered by [Deepgram's incredibly easy-to-use STT API](https://deepgram.com) - making sophisticated voice interfaces accessible to any developer.
+
+A beautifully simple and immersive voice-first productivity companion that sits as a translucent bar at the top of your screen. Control your personalized soundscape entirely through voice commands with intelligent Voice Activity Detection that automatically manages music volume during speech.
 
 ## ✨ Features
 
