@@ -1,0 +1,48 @@
+{
+  "name": "voice-productivity-companion",
+  "version": "1.0.0",
+  "description": "A voice-first productivity companion with generative background music",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "voice",
+    "productivity",
+    "music",
+    "ai",
+    "electron"
+  ],
+  "author": "Voice Companion",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^3.4.0",
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.0",
+    "node-fetch": "^3.3.2",
+    "node-record-lpcm16": "^1.0.1",
+    "openai": "^4.20.0",
+    "speaker": "^0.5.4",
+    "tone": "^14.7.77",
+    "wav": "^1.0.2",
+    "ws": "^8.14.2"
+  },
+  "build": {
+    "appId": "com.voicecompanion.app",
+    "productName": "Voice Productivity Companion",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*"
+    ]
+  }
+}
